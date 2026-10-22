@@ -94,3 +94,23 @@ No conclusion is based on an optimized threshold or fitted weight.
 - Historical social metrics and BTC/ETH benchmark returns are absent.
 - Sale and TGE timestamp quality varies across projects.
 - The sample may contain selection bias because it is not a complete universe of public sales with Polymarket markets.
+
+## Pilot result
+
+The current conclusion is `MAYBE`.
+
+Among the seven actionable projects, four have exact day-1 closing prices. Three of those four returns are positive, with a median of `+66.25%`. The mean of `+607.70%` is dominated by Plasma at `+2,329.2%`; excluding Plasma leaves only three exact observations, with a mean of `+33.86%`.
+
+Adding two explicitly labeled proxy outcomes produces six observed actionable projects, four positive, with a median return of `+48.08%`. This shows that the opportunity set has interesting outcomes, but it does not validate the Polymarket valuation-gap signal. There are zero actionable rows with exact point-in-time probabilities, and only one row combines an actionable proxy signal with any day-1 outcome, which is itself a proxy.
+
+The pilot therefore supports further data collection, not an ENTER/WATCH/SKIP investment rule.
+
+## Next data-collection priorities
+
+1. Capture exact Polymarket CLOB threshold probabilities immediately before each public-sale close.
+2. Store snapshot timestamps, market identifiers and the applicable decision cutoff.
+3. Expand to a systematic universe that includes failed and unattractive sales.
+4. Collect exact horizon-aligned day-1 closing prices separately from intraday highs.
+5. Complete unlock and vesting data at TGE.
+6. Add BTC and ETH horizon returns for excess-return analysis.
+7. Add historical social metrics only after the core valuation signal and outcomes are reliable.
